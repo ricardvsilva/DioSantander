@@ -12,4 +12,15 @@
         app:showAsAction="never"
         />
 
+    <item android:id="@+id/item_3"
+        android:title="Menu3"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/item_4"
+        android:title="Menu4"
+        android:icon="@drawable/ic_runner"
+        app:showAsAction="ifRoom"
+        />
+
 </menu>

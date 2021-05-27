@@ -2,7 +2,9 @@ package com.rick.dioandroidsantander
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
+import android.view.MenuItem
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,4 +18,18 @@ class MainActivity : AppCompatActivity() {
         inflate.inflate(R.menu.main_menu, menu)
         return true
     }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId){
+            R.id.item_1 ->{ Log.d("item 01", "Primeiro Item")
+                true
+            }
+            R.id.item_2 ->{ Log.d("item 02", "Segundo Item")
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+
+    }
+
 }
