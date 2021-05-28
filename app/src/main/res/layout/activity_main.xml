@@ -28,4 +28,51 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="16:6"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/redPrimary"/>
+
+    <TextView
+        android:id="@+id/tv_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Olá, Ricardo "
+
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_agência"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" AG 2030 "
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_usuario"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_conta_corrente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" CC 01222122 "
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toEndOf="@+id/tv_agência"
+        app:layout_constraintTop_toTopOf="@id/tv_agência"
+        app:layout_constraintBottom_toBottomOf="@id/tv_agência"
+
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
