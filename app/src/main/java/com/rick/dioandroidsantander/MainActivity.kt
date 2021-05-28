@@ -24,9 +24,6 @@ class MainActivity : AppCompatActivity() {
             R.id.item_1 ->{ Log.d("item 01", "Primeiro Item")
                 true
             }
-            R.id.item_2 ->{ Log.d("item 02", "Segundo Item")
-                true
-            }
             else -> super.onOptionsItemSelected(item)
         }
 
