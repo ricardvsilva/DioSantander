@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DioAndroidSantander</string>
+    <string name="saldo_disponivel">Balance Available</string>
+    <string name="saldo_limite">Balance Limit</string>
+    <string name="txt_ver_extrato">View Extract</string>
+    <string name="txt_pagar">Pay</string>
+    <string name="txt_transferir">Transfer</string>
+    <string name="txt_recarregar">Recharge</string>
+    <string name="txt_cartao_final">Final Card</string>
+    <string name="user_greetings">Hello, Ricardo</string>
+    <string name="numero_agencia">AG 2030</string>
+    <string name="numero_conta">CC 01222122</string>
+    <string name="str_desc_imgcima">Imagem de fundo parte cima app</string>
+    <string name="str_icone_saldo">icone saldo</string>
+    <string name="str_icone_update_saldo">icone update saldo</string>
+    <string name="str_icone_pagar">icone pagar</string>
+    <string name="first_menu">Menu</string>
+    <string name="titulo_app">Santander</string>
+    <string name="txt_cartao_final_value">1822</string>
+    <string name="valor_saldo_limite">R$ 2713,33</string>
+    <string name="valor_do_saldo">R$ 1234.56</string>
+    <string name="str_icone_transferir">icone transferir</string>
+    <string name="str_icone_recarregar_celular">icone recarregar celular</string>
+    <string name="str_icone_mais_sobre_fatura1">icone mais sobre fatura</string>
+    <string name="str_icone_mais_sobre_fatura2">icone mais sobre fatura</string>
+    <string name="str_cumprimento">"Hello "</string>
+</resources>
